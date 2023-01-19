@@ -25,8 +25,6 @@ jobs:
           environment-name: build
           extra-specs: |
             python=${{ matrix.python-version }}
-      - name: Install mamba
-        run: micromamba install -n build -c conda-forge mamba
       - name: Build and upload the conda packages
         uses: uibcdf/action-build-and-upload-conda-packages@v1.1.0
         with:
