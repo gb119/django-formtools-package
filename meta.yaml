@@ -18,6 +18,8 @@ requirements:
     - django >=3.2
     - pip
     - python
+    - setuptools-scm
+    - setuptools
   run:
     - django >=3.2
     - python
