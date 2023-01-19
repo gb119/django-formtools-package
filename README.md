@@ -1,8 +1,5 @@
-# Conda Packaging Template
+# {ackagiong for django-formtools
 
-This template repository contains a default setup for building new conda packages via agithub action.
+Django formtools is a set of high-level abstractions for Django forms
 
-## Contents
-
-1. A github action to build conda packages and upload them for MacOS-X, Linux, Windows 74bit pythons v 3/6-3.9
-2. A build environment
+https://github.com/jazzband/django-formtools
