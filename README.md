@@ -1,4 +1,4 @@
-# {ackagiong for django-formtools
+# Packagiong for django-formtools
 
 Django formtools is a set of high-level abstractions for Django forms
 
