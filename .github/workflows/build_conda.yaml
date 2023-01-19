@@ -28,12 +28,11 @@ jobs:
       - name: Install mamba
         run: micromamba install -n build -c conda-forge mamba
       - name: Build and upload the conda packages
-        uses: gb119/action-build-and-upload-conda-packages@v0.1.12
+        uses: uibcdf/action-build-and-upload-conda-packages@v1.1.0
         with:
           meta_yaml_dir: .
           overwrite: true
           python-version: ${{ matrix.python-version }} # Values previously defined in `matrix`
-          mambabuild: true
           user: phygbu
           label: main
           token: ${{ secrets.ANACONDA }} # Replace with the right name of your secret
